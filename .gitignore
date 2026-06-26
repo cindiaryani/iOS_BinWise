@@ -1,0 +1,74 @@
+## Xcode
+# Build products
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# User settings
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Bundle artifacts
+*.app
+*.ipa
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# macOS
+.DS_Store
+
+# Provisioning
+*.mobileprovision
+
+# Xcode archives
+*.xcarchive
+
+# Index files
+*.xccheckout
+*.moved-aside
+
+# Temporary files
+*.swp
+*~
+
+# Secrets (don't commit API keys or service files)
+# If you want to ignore local GoogleService-Info.plist, uncomment below.
+# GoogleService-Info.plist
+# Secrets — never commit
+BinWise_Cindi/Secrets.plist
+GoogleService-Info.plist
+
+# Python scripts with API keys — run locally only, never commit
+binwise_a2a_agents.py
+binwise_coach.py
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
